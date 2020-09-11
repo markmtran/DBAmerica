@@ -4,8 +4,8 @@
   src: url(Basic-Commercial-LT-Com-Black.ttf);
 }
 body {
-  background-image: url('ladylight.jpg');
-  background-position: 24% 7%; 
+  background-image: url("ladylight.jpg");
+  background-position: 24% 7%;
   background-attachment: fixed;
 }
 @media (max-width: 1200px) {
@@ -42,7 +42,9 @@ nav {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
   left: 0;
   right: 0;
 }
@@ -71,12 +73,12 @@ nav {
 }
 
 .facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .mail {
@@ -100,13 +102,12 @@ nav {
   bottom: 16px;
   font-size: 100px;
   letter-spacing: 6px;
-
 }
 
 #empower {
   position: relative;
   bottom: 40px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 40px;
   font-style: italic;
 }
@@ -114,20 +115,20 @@ nav {
   margin-top: 220px;
 }
 #about-title {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   font-size: 60px;
 }
 #about-mid {
   margin-top: 30px;
 }
 .about-words {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 30px;
   margin-right: 70px;
 }
 #learn-btn {
-  background-color: rgba(0,0,0,0);
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: bold;
   font-size: 30px;
   padding: 10px 15px;
@@ -144,20 +145,26 @@ nav {
 }
 @keyframes button-background {
   100% {
-      background-color: #7f0000;
-      border-color: #7f0000;
-      color: white;
+    background-color: #7f0000;
+    border-color: #7f0000;
+    color: white;
   }
 }
-#contact-top {
+#watch-top {
   margin-top: 100px;
+}
+#iframe-div {
+  margin-top: 60px;
+}
+#contact-top {
+  margin-top: 80px;
 }
 #form-div {
   position: relative;
   left: 40px;
 }
 .form-label {
-  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 #arrow-up {
@@ -175,6 +182,31 @@ nav {
 }
 @keyframes arrow-background {
   100% {
-    color: #7f0000;  }
+    color: #7f0000;
+  }
 }
 
+/* Start Mission CSS */
+#new-gen {
+  margin-top: 100px;
+}
+#mission-title {
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+#statement {
+  position: relative;
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-style: italic;
+}
+
+#want {
+  margin-top: 40px;
+}
+#sup-list {
+  margin-top: 50px;
+}
+#how {
+  margin-top: 400px;
+}
