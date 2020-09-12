@@ -1,57 +1,101 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- CSS Stylesheet -->
-        <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/style.css">
+  <head>
+    <!-- CSS Stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ site.baseurl }}/css/style.css"
+    />
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        
-        <!-- Fonts-->
-        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
-        <!-- Font Awesome-->
-        <script src="https://kit.fontawesome.com/d2d7b9c4dd.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
-        <!-- Animation -->
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
-        <title>{{ page.title }}</title>
-    </head>
-    <body>
-        {% include navigation.html %}
-        {% include sidebar.html %}
-        
-        <main>
-            {{ content }}
-        </main>
+    <!-- Font Awesome-->
+    <script
+      src="https://kit.fontawesome.com/d2d7b9c4dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-        <div id="arrow-up" class="row">
-            <div class="col-md-12 d-flex justify-content-center">
-            <a id="bottom-arrow" href="#nav"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
-            </div>
-        </div>
-        <!-- Footer Start-->
-        <div id="footer" class="row d-flex justify-content-center align-items-center">
-            <footer>
-                <p>Copyright © 2020 Don't Bankrupt America</p>
-            </footer>
-        </div>
-        <!-- Footer End -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-    </body>
+    <!-- Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    {% include navigation.html %} {% include sidebar.html %}
+
+    <main>{{ content }}</main>
+
+    <div id="arrow-up" class="row">
+      <div class="col-md-12 d-flex justify-content-center">
+        <a id="bottom-arrow" href="#nav"
+          ><i class="fas fa-arrow-circle-up fa-3x"></i
+        ></a>
+      </div>
+    </div>
+    <!-- Footer Start-->
+    <div
+      id="footer"
+      class="row d-flex justify-content-center align-items-center"
+    >
+      <footer>
+        <p>Copyright © 2020 Don't Bankrupt America</p>
+      </footer>
+    </div>
+    <!-- Footer End -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
